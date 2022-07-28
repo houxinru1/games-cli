@@ -16,17 +16,13 @@
             <a href="" class="user-regist">注册</a>
           </div>
           <div class="hd-search">
-            <img src="../assets/imgae/logo.png" alt="" />
+            <img src="./src/imgae/logo.png" alt="" />
 
             <div class="search-box mal-140">
               <div class="search">
                 <input type="text" placeholder="魔兽世界" class="search-ipt" />
                 <button class="search-but">
-                  <img
-                    src="../assets/imgae/icon-search .png"
-                    alt=""
-                    class="icon"
-                  />
+                  <img src="./src/imgae/icon-searchw .png" alt="" class="icon" />
                 </button>
               </div>
               <div class="search-li">
@@ -37,7 +33,7 @@
               </div>
             </div>
             <div class="hd-min mal-140">
-              <img src="../assets/imgae/min173.png" alt="" class="img-min" />
+              <img src="./src/imgae/min173.png" alt="" class="img-min" />
               <a href="">一起一起来</a>
             </div>
           </div>
@@ -62,30 +58,69 @@
 
       <div class="main">
         <div class="wrap">
-                <ul class="nav-list2">
-                    <li><a href="">排行榜</a></li>
-                    <li><a href="">找游戏</a></li>
-                    <li><a href="">游戏测评</a></li>
-                    <li><a href="">新游测试表</a></li>
-                    <li><a href="">怀旧服测试表</a></li>
-                    <li><a href="">过审游戏</a></li>
-                    <li><span>/</span></li>
-                    <li><a href="">100%拿周边</a></li>
-                    <li><span>/</span></li>
-                    <li><a href="">有偿试玩</a></li>
-                    <li><span>/</span></li>
-                    <li><a href="">鉴赏家</a></li>
-                    <li><span>/</span></li>
-                    <li><a href="">次世代</a></li>
-                    <li><span>/</span></li>
-                    <li><a href="">元宇宙</a></li>
-                    <li><span>/</span></li>
-                    <li><a href="">更多？</a></li>
-                    <li>今日测试：<span class="redcolor">新游戏</span></li>
-                  </ul>
-                 
-       
-    </div>
+          <ul class="nav-list2">
+            <li><a href="">排行榜</a></li>
+            <li><a href="">找游戏</a></li>
+            <li><a href="">游戏测评</a></li>
+            <li><a href="">新游测试表</a></li>
+            <li><a href="">怀旧服测试表</a></li>
+            <li><a href="">过审游戏</a></li>
+            <li><span>/</span></li>
+            <li><a href="">100%拿周边</a></li>
+            <li><span>/</span></li>
+            <li><a href="">有偿试玩</a></li>
+            <li><span>/</span></li>
+            <li><a href="">鉴赏家</a></li>
+            <li><span>/</span></li>
+            <li><a href="">次世代</a></li>
+            <li><span>/</span></li>
+            <li><a href="">元宇宙</a></li>
+            <li><span>/</span></li>
+            <li><a href="">更多？</a></li>
+            <li>今日测试：<span class="redcolor">新游戏</span></li>
+          </ul>
+          <div class="ad-picture">
+            <img src="./src/imgae/adventure.png" alt="" />
+            <img src="./src/imgae/adventure2.png" alt="" />
+          </div>
+
+          <div class="tab-hd">
+            <ul class="tab-hd-ul">
+              <li>
+                <img src="./src/imgae/ficon-ire.png" alt="" class="ico">
+                <span>热门</span>
+              </li>
+              <li>
+                <img src="./src/imgae/icon-jia.png" alt="" class="ico">
+                <span>新游</span>
+              </li>
+              <li>
+                <img src="./src/imgae/icon-phone.png" alt="" class="ico">
+                <span>手游</span>
+              </li>
+              <li>
+                <img src="./src/imgae/icon-inter.png" alt="" class="ico">
+                <span>页游</span>
+              </li>
+              <li>
+                <img src="./src/imgae/icon-a.png" alt="" class="ico">
+                <span>按A-Z</span>
+              </li>
+            </ul>
+            <div class="tab-box">
+              <div class="tab-search">
+                <input type="text" name="" placeholder="传奇之梦" class="tab-inp">
+                <button class="tab-but"><img src="./src/imgae/icon-searchhui.png" alt="" class="icon"></button>
+              </div>
+              <div class="tab-create">
+                <img src="./src/imgae/icon-redjia.png" alt="" class="ico-jia">
+                <a href="">添加游戏</a>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
@@ -104,35 +139,46 @@
     color: black;
     text-decoration: none;
   }
+  ul{
+    margin: 0;
+    padding: 8px 0;
+  }
   li {
     list-style: none;
   }
   .icon {
     width: 20px;
+    vertical-align: middle;
+
+  }
+  .ico {
+    width: 16px;
+    vertical-align: middle;
   }
   .box {
     height: 100%;
   }
-  .header{
+  .header {
     /* height: 166px; */
     border-bottom: 3px solid #ffcd00;
   }
   .user {
-  text-align: right;
-  padding: 10px 0;}
+    text-align: right;
+    padding: 10px 0;
+  }
   .user-login,
   .user-regist {
     padding: 5px 10px;
     font-size: 14px;
   }
   .hd-search {
-  display: flex;
-  /* gap: 0 140px; */
-}
-.hd-search a:hover {
-  color: red;
-  border-bottom: 1px solid red;
-}
+    display: flex;
+    /* gap: 0 140px; */
+  }
+  .hd-search a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+  }
 
   .search {
     width: 410px;
@@ -155,49 +201,85 @@
     gap: 0 14px;
     font-size: 14px;
   }
-.search-a{
+  .search-a {
     font-size: 12px;
-}
-.img-min {
-  width: 38px;
-  /* ///图文对齐 */
-  vertical-align: middle;
-}
-.nav .nav-list {
-  /* padding: 10px 0; */
- list-style: none;
-  display: flex;
-  gap: 0 22px;
- 
-}
+  }
+  .img-min {
+    width: 38px;
+    /* ///图文对齐 */
+    vertical-align: middle;
+  }
+  .nav .nav-list {
+    /* padding: 10px 0; */
+    list-style: none;
+    display: flex;
+    gap: 0 22px;
+  }
   .nav-item {
     font-size: 16px;
   }
-  .nav-item:hover{
+  .nav-item:hover {
     color: red;
   }
-  .mal-70{
+  .mal-70 {
     margin-left: 70px;
   }
-  .mal-30{
+  .mal-30 {
     margin-left: 30px;
   }
-  .mal-140{
+  .mal-140 {
     margin-left: 140px;
   }
 
-.nav-list2 {
+  .nav-list2 {
     display: flex;
-  gap: 0 7px;
-  margin-right: 20px;
-}
-.nav-list2 a{
-    color:  #585b5b;
-}
-.nav-list2 a:hover{
-border-bottom: 1px solid #888e8e;
-}
-.redcolor{
+    gap: 0 7px;
+  }
+  .nav-list2 a {
+    color: #585b5b;
+  }
+  .nav-list2 a:hover {
+    border-bottom: 1px solid #888e8e;
+  }
+  .redcolor {
     color: #e56c15;
   }
+  .tab-hd{
+    display: flex;
+    justify-content: space-between
+    
+  }
+  .tab-hd-ul{
+    display: flex;
+    gap: 30px;
+  }
+  .tab-box{
+  display: flex;
+  gap: 0 20px;
+align-items: center;
+  }
+  .tab-search{
+    width: 212px;
+    height: 25px;
+    border-radius: 15px;
+    border:1px solid #b9bebe;
+  }
+ .tab-inp{
+  outline: none;
+  border: none;
+  margin-left: 10px;
+ }
+ .tab-but{
+  height: 23px;
+  width: 24px;
+  background-color: #fff;
+  border: none;
+ }
+ .ico-jia{
+ width: 13px;
+ }
+ .tab-create a:hover{
+ color: red;
+ border-bottom:1px solid red;
+ }
 </style>
